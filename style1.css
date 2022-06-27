@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Titan+One&display=swap");
+body {
+  background-color: rgb(166, 254, 254);
+}
+html {
+  font-family: "Raleway", sans-serif;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.975);
+}
+
+.not_one_of_us,
+.one_of_us {
+  background-color: rgb(251, 251, 251);
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.168);
+}
+.title,
+.welcome {
+  font-family: "Titan One", cursive;
+  color: rgb(251, 251, 251);
+  padding: auto;
+}
