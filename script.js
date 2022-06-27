@@ -26,6 +26,7 @@ $body.append(wrapperEl, titleEl, welcomeEl);
 try {
   if (localStorage.getItem("username") !== userLogIn) {
     $body.append(notOneOfUsEl);
+    console.error(notOneOfUsEl.textContent)
     throw error;
   } else {
     $body.append(oneOfUsEl);
